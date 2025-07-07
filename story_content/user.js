@@ -51,42 +51,6 @@ fetch(apiUrl, {
 
 window.Script2 = function()
 {
-  // Get the player object to access Storyline variables
-const player = GetPlayer();
-const token = player.GetVar("t1");
-
-// API URL with token
-const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
-
-// Fetch data from the API
-fetch(apiUrl, {
-  method: 'GET',
-  headers: {
-    'Accept': '*/*'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Loop through each question and set Storyline variables
-  data.questions.forEach(question => {
-    // Set question content
-    player.SetVar(question.contentVariable, question.content);
-
-    // Set correct answer
-    player.SetVar(question.answerVariable, question.answer);
-
-    // Initialize student's answer as empty
-    player.SetVar(question.studentAnswerVariable, '');
-  });
-})
-.catch(error => {
-  console.error('Error fetching API:', error);
-});
-
-}
-
-window.Script3 = function()
-{
   (async function evaluateLessonFromStoryline() {
     // Create loading overlay if it doesn't already exist
     if (!document.getElementById("loadingOverlay")) {
@@ -178,79 +142,43 @@ window.Script3 = function()
 })();
 }
 
+window.Script3 = function()
+{
+  // Get the player object to access Storyline variables
+const player = GetPlayer();
+const token = player.GetVar("t2");
+
+// API URL with token
+const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
+
+// Fetch data from the API
+fetch(apiUrl, {
+  method: 'GET',
+  headers: {
+    'Accept': '*/*'
+  }
+})
+.then(response => response.json())
+.then(data => {
+  // Loop through each question and set Storyline variables
+  data.questions.forEach(question => {
+    // Set question content
+    player.SetVar(question.contentVariable, question.content);
+
+    // Set correct answer
+    player.SetVar(question.answerVariable, question.answer);
+
+    // Initialize student's answer as empty
+    player.SetVar(question.studentAnswerVariable, '');
+  });
+})
+.catch(error => {
+  console.error('Error fetching API:', error);
+});
+
+}
+
 window.Script4 = function()
-{
-  // Get the player object to access Storyline variables
-const player = GetPlayer();
-const token = player.GetVar("t2");
-
-// API URL with token
-const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
-
-// Fetch data from the API
-fetch(apiUrl, {
-  method: 'GET',
-  headers: {
-    'Accept': '*/*'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Loop through each question and set Storyline variables
-  data.questions.forEach(question => {
-    // Set question content
-    player.SetVar(question.contentVariable, question.content);
-
-    // Set correct answer
-    player.SetVar(question.answerVariable, question.answer);
-
-    // Initialize student's answer as empty
-    player.SetVar(question.studentAnswerVariable, '');
-  });
-})
-.catch(error => {
-  console.error('Error fetching API:', error);
-});
-
-}
-
-window.Script5 = function()
-{
-  // Get the player object to access Storyline variables
-const player = GetPlayer();
-const token = player.GetVar("t2");
-
-// API URL with token
-const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
-
-// Fetch data from the API
-fetch(apiUrl, {
-  method: 'GET',
-  headers: {
-    'Accept': '*/*'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Loop through each question and set Storyline variables
-  data.questions.forEach(question => {
-    // Set question content
-    player.SetVar(question.contentVariable, question.content);
-
-    // Set correct answer
-    player.SetVar(question.answerVariable, question.answer);
-
-    // Initialize student's answer as empty
-    player.SetVar(question.studentAnswerVariable, '');
-  });
-})
-.catch(error => {
-  console.error('Error fetching API:', error);
-});
-
-}
-
-window.Script6 = function()
 {
   (async function evaluateLessonFromStoryline() {
     // Create loading overlay if it doesn't already exist
@@ -343,7 +271,7 @@ window.Script6 = function()
 })();
 }
 
-window.Script7 = function()
+window.Script5 = function()
 {
   // Get the player object to access Storyline variables
 const player = GetPlayer();
@@ -379,43 +307,7 @@ fetch(apiUrl, {
 
 }
 
-window.Script8 = function()
-{
-  // Get the player object to access Storyline variables
-const player = GetPlayer();
-const token = player.GetVar("t3");
-
-// API URL with token
-const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
-
-// Fetch data from the API
-fetch(apiUrl, {
-  method: 'GET',
-  headers: {
-    'Accept': '*/*'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Loop through each question and set Storyline variables
-  data.questions.forEach(question => {
-    // Set question content
-    player.SetVar(question.contentVariable, question.content);
-
-    // Set correct answer
-    player.SetVar(question.answerVariable, question.answer);
-
-    // Initialize student's answer as empty
-    player.SetVar(question.studentAnswerVariable, '');
-  });
-})
-.catch(error => {
-  console.error('Error fetching API:', error);
-});
-
-}
-
-window.Script9 = function()
+window.Script6 = function()
 {
   (async function evaluateLessonFromStoryline() {
     // Create loading overlay if it doesn't already exist
