@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Nobisoft intro neurocoach" />
+              <option name="title_text" value="deployfinal" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1570,36 +1570,49 @@
       <links>
         <slidelink slideid="_player.5geGckF6Qzl" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5geGckF6Qzl.5sH87YNiyBm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5gWUEqBNfr3" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6MlDNBF2c3q" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6GiodaHGKs2" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6NAT0zhEFY7" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6K5txVtCuyt" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6OwrDKApJ2S" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.67gefTe8t7o" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5j8ZEZ1wydm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6S6hjTHQ304" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6aD2aJYJ9p0" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5xBomOclStp" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5syF9jgwNyB" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5wofER0dVSn" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6Ul1d1bruw0" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5kBoZOMjasB" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6YvoFvFZWpH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6okiFwFmWFC" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.635LshKtxVH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5jA5SXBpO45" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.6bdCagf3L0K" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5iOfufC68Ov" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5wIZnraFsUk" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5geGckF6Qzl.5UuVdPwgT6u" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5sH87YNiyBm" displaytext="Opening" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5gWUEqBNfr3" displaytext="Two Sides" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6MlDNBF2c3q" displaytext="Elkman&amp;apos;s Wheel" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6GiodaHGKs2" displaytext="Brain Highlights" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6NAT0zhEFY7" displaytext="Neurons" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5iOfufC68Ov" displaytext="Brain Regions" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6OwrDKApJ2S" displaytext="Networks" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.67gefTe8t7o" displaytext="Coach 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5j8ZEZ1wydm" displaytext="Client 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6Ul1d1bruw0" displaytext="AI First Scene" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6aD2aJYJ9p0" displaytext="AI Response" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5xBomOclStp" displaytext="Exhibited Emotions" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5syF9jgwNyB" displaytext="Coach 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5wofER0dVSn" displaytext="Client 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.655VUufGbvB" displaytext=" AI Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5kBoZOMjasB" displaytext="AI Critical Notes" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6YvoFvFZWpH" displaytext="Coach 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6okiFwFmWFC" displaytext="Client 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.635LshKtxVH" displaytext="AI Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6FwEw5IiZ0P" displaytext="Summary Emotions" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5jA5SXBpO45" displaytext="Coach Input &amp;amp; AI" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6bdCagf3L0K" displaytext="Coach Alerts" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5YzuKDbh0FN" displaytext="Possible Coachiung Models" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6ZwrMEizXz5" displaytext="Client Aides #1" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.5pUZKpgfVVr" displaytext="Client Aides #2" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6i9u4zIRKy0" displaytext="The Journey" expand="false" type="slide" />
+            <slidelink slideid="_player.5geGckF6Qzl.6rN1gR7sY3W" displaytext="Other Courses" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/Neurotransmitters_Effects.docx" image="story_content/5lDjw05KAnf.png" title="Neurotransmitters" />
+      <resource url="story_content/external_files/Primary Neurotransmitters.docx" image="story_content/5W7SG4ymope.png" title="Primary Neurotransmitters" />
+      <resource url="story_content/external_files/Limited Examples of External Neurotransmitters Sources.docx" image="story_content/6mEishxcwYe.png" title="External Examples of Neurotransmitter Sources" />
+      <resource url="story_content/external_files/Coaching Clients with Emotions of Fear.docx" image="story_content/6dyl1PsJHje.png" title="Coaching and Client Fear" />
+      <resource url="story_content/external_files/Brain Regions and the Impact of Fear, Resignation and Anger.docx" image="story_content/6K7pLVhRPUu.png" title="Brain Regions and the Impact of Fear, Resignation and Anger" />
+      <resource url="story_content/external_files/Analysis_ Leadership Under Organizational Change.docx" image="story_content/67yuuXG1HLO.png" title="Analysis_ Leadership Under Organizational Change" />
+      <resource url="story_content/external_files/Coaching Summary and Analysis_Ron.docx" image="story_content/5n5tCX3PQGX.png" title="Coaching Summary and Analysis_Ron" />
+    </resources>
+  </resource_data>
   <transcript_data />
   <glossary_data />
 </bwFrame>

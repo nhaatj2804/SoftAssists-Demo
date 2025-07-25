@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6glTsmLbgFT" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">deployfinal</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="deployfinal_ORG">
+    <organization identifier="deployfinal_ORG">
+      <title>deployfinal</title>
+      <item identifier="intro_neurocoaching2_SCO" isvisible="true" identifierref="__6glTsmLbgFT_RES">
+        <title>deployfinal</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6glTsmLbgFT_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/6DTk1dAsqeg_80.jpg" />
+      <file href="story_content/6NXyvBh82oP_44100_48_0.mp3" />
+      <file href="mobile/6QANhzChfIq_P_243_0_258_222.png" />
+      <file href="mobile/6r5nx46G73M_M_606_606.png" />
+      <file href="story_content/6hykkccDLgK_44100_48_0.mp3" />
+      <file href="mobile/6gRg9BXM2uv_M_896_896.png" />
+      <file href="story_content/6DKQVTAaFw6_44100_48_0.mp3" />
+      <file href="mobile/6qEZdm8719g_80_P_352_0_1334_1112.png" />
+      <file href="story_content/6h9HjRpse2g_44100_48_0.mp3" />
+      <file href="mobile/6cv1XlAyOwm.png" />
+      <file href="mobile/5f0BfM6fLfJ_80.jpg" />
+      <file href="story_content/62HXF4ZshEP_44100_48_0.mp3" />
+      <file href="mobile/5pDtbpsjSk0.png" />
+      <file href="story_content/6SDzGRZKKHX_44100_48_0.mp3" />
+      <file href="mobile/6dW3ziF5Wjl.png" />
+      <file href="mobile/6l65ERYKqVh_P_471_187_337_337.png" />
+      <file href="story_content/6SEdDXzN3RO_44100_48_0.mp3" />
+      <file href="story_content/video_6motF7lja7Q_22_48_720x616.mp4" />
+      <file href="mobile/poster_5h7R5SgNPuT_video_6motF7lja7Q_22_48_720x616.jpg" />
+      <file href="story_content/6YtYjudYnpO_44100_48_0.mp3" />
+      <file href="story_content/video_5czoM8lFJy5_22_48_720x406.mp4" />
+      <file href="mobile/poster_6F5VjRlhTK5_video_5czoM8lFJy5_22_48_720x406.jpg" />
+      <file href="story_content/5XolAYJZGGY_44100_48_0.mp3" />
+      <file href="story_content/video_5gUUZL4Kkrg_22_48_720x406.mp4" />
+      <file href="mobile/poster_6AKixB6JEVs_video_5gUUZL4Kkrg_22_48_720x406.jpg" />
+      <file href="mobile/5V9OtMS7mZf.png" />
+      <file href="mobile/6drn1roAszN.png" />
+      <file href="mobile/5Y5mkvgbIpx.png" />
+      <file href="meta.xml" />
+      <file href="story_content/5lDjw05KAnf.png" />
+      <file href="story_content/5W7SG4ymope.png" />
+      <file href="story_content/6mEishxcwYe.png" />
+      <file href="story_content/6dyl1PsJHje.png" />
+      <file href="story_content/6K7pLVhRPUu.png" />
+      <file href="story_content/67yuuXG1HLO.png" />
+      <file href="story_content/5n5tCX3PQGX.png" />
+      <file href="story_content/triggers.js" />
+      <file href="story_content/user.js" />
+      <file href="story_content/external_files/Neurotransmitters_Effects.docx" />
+      <file href="story_content/external_files/Primary Neurotransmitters.docx" />
+      <file href="story_content/external_files/Limited Examples of External Neurotransmitters Sources.docx" />
+      <file href="story_content/external_files/Coaching Clients with Emotions of Fear.docx" />
+      <file href="story_content/external_files/Brain Regions and the Impact of Fear, Resignation and Anger.docx" />
+      <file href="story_content/external_files/Analysis_ Leadership Under Organizational Change.docx" />
+      <file href="story_content/external_files/Coaching Summary and Analysis_Ron.docx" />
+      <file href="mobile/txt__default_69AJJ4Idl0h.png" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5gWUEqBNfr3.js" />
+      <file href="html5/data/js/5iOfufC68Ov.js" />
+      <file href="html5/data/js/5j8ZEZ1wydm.js" />
+      <file href="html5/data/js/5jA5SXBpO45.js" />
+      <file href="html5/data/js/5kBoZOMjasB.js" />
+      <file href="html5/data/js/5pUZKpgfVVr.js" />
+      <file href="html5/data/js/5sH87YNiyBm.js" />
+      <file href="html5/data/js/5syF9jgwNyB.js" />
+      <file href="html5/data/js/5wofER0dVSn.js" />
+      <file href="html5/data/js/5xBomOclStp.js" />
+      <file href="html5/data/js/5YzuKDbh0FN.js" />
+      <file href="html5/data/js/635LshKtxVH.js" />
+      <file href="html5/data/js/655VUufGbvB.js" />
+      <file href="html5/data/js/67gefTe8t7o.js" />
+      <file href="html5/data/js/6aD2aJYJ9p0.js" />
+      <file href="html5/data/js/6bdCagf3L0K.js" />
+      <file href="html5/data/js/6FwEw5IiZ0P.js" />
+      <file href="html5/data/js/6GiodaHGKs2.js" />
+      <file href="html5/data/js/6i9u4zIRKy0.js" />
+      <file href="html5/data/js/6MlDNBF2c3q.js" />
+      <file href="html5/data/js/6NAT0zhEFY7.js" />
+      <file href="html5/data/js/6okiFwFmWFC.js" />
+      <file href="html5/data/js/6OwrDKApJ2S.js" />
+      <file href="html5/data/js/6rN1gR7sY3W.js" />
+      <file href="html5/data/js/6Ul1d1bruw0.js" />
+      <file href="html5/data/js/6YvoFvFZWpH.js" />
+      <file href="html5/data/js/6ZwrMEizXz5.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
