@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">deployfinal</langstring>
+          <langstring xml:lang="x-none">last22</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,11 +50,11 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="deployfinal_ORG">
-    <organization identifier="deployfinal_ORG">
-      <title>deployfinal</title>
+  <organizations default="last22_ORG">
+    <organization identifier="last22_ORG">
+      <title>last22</title>
       <item identifier="intro_neurocoaching2_SCO" isvisible="true" identifierref="__6glTsmLbgFT_RES">
-        <title>deployfinal</title>
+        <title>last22</title>
       </item>
     </organization>
   </organizations>
@@ -90,13 +90,13 @@
       <file href="mobile/6drn1roAszN.png" />
       <file href="mobile/5Y5mkvgbIpx.png" />
       <file href="meta.xml" />
-      <file href="story_content/5lDjw05KAnf.png" />
-      <file href="story_content/5W7SG4ymope.png" />
-      <file href="story_content/6mEishxcwYe.png" />
-      <file href="story_content/6dyl1PsJHje.png" />
-      <file href="story_content/6K7pLVhRPUu.png" />
-      <file href="story_content/67yuuXG1HLO.png" />
-      <file href="story_content/5n5tCX3PQGX.png" />
+      <file href="story_content/5edMEy3VlGe.png" />
+      <file href="story_content/5jsLAoK9kgq.png" />
+      <file href="story_content/6RFd8Ab5dbm.png" />
+      <file href="story_content/6oqSHTIIBAn.png" />
+      <file href="story_content/6UFcsKhm0v0.png" />
+      <file href="story_content/5gO5tipGvlp.png" />
+      <file href="story_content/5d9DPlFlf08.png" />
       <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
       <file href="story_content/external_files/Neurotransmitters_Effects.docx" />

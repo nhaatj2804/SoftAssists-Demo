@@ -402,42 +402,6 @@ window.Script6 = function()
 
 window.Script7 = function()
 {
-  // Get the player object to access Storyline variables
-const player = GetPlayer();
-const token = player.GetVar("t4");
-
-// API URL with token
-const apiUrl = `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`;
-
-// Fetch data from the API
-fetch(apiUrl, {
-  method: 'GET',
-  headers: {
-    'Accept': '*/*'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Loop through each question and set Storyline variables
-  data.questions.forEach(question => {
-    // Set question content
-    player.SetVar(question.contentVariable, question.content);
-
-    // Set correct answer
-    player.SetVar(question.answerVariable, question.answer);
-
-    // Initialize student's answer as empty
-    player.SetVar(question.studentAnswerVariable, '');
-  });
-})
-.catch(error => {
-  console.error('Error fetching API:', error);
-});
-
-}
-
-window.Script8 = function()
-{
   (async function evaluateLessonFromStoryline() {
     // Create loading overlay if it doesn't already exist
     if (!document.getElementById("loadingOverlay")) {
@@ -461,72 +425,41 @@ window.Script8 = function()
         document.body.appendChild(overlay);
     }
     const player = GetPlayer();
-    const token = player.GetVar("t4");
 
     try {
-        // Step 1: Fetch lesson configuration
-        const lessonConfigRes = await fetch(
-            `https://api-soft-assist.nobisoft.com.vn/api/lesson-configuration/${token}`
-        );
+        // Get question from Storyline variable q10
+        const question = player.GetVar("q10");
 
-        if (!lessonConfigRes.ok) {
-            throw new Error("Failed to fetch lesson configuration");
-        }
-
-        const lessonConfig = await lessonConfigRes.json();
-        const {
-            knowledgeBase,
-            questions
-        } = lessonConfig;
-
-        // Step 2: Collect student answers from Storyline variables
-        const studentVariables = {};
-        questions.forEach((q) => {
-            studentVariables[q.studentAnswerVariable] = player.GetVar(q.studentAnswerVariable);
+        // Call the ask-question API with question
+        const response = await fetch("https://api-soft-assist.nobisoft.com.vn/api/submit/ask-question", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "accept": "*/*"
+            },
+            body: JSON.stringify({ question })
         });
 
-        // Step 3: Prepare data to submit
-        const submitBody = {
-            knowledgeBase,
-            questions: questions.map((q) => ({
-                groundTruthAnswer: q.answer,
-                studentAnswer: studentVariables[q.studentAnswerVariable],
-                question: q.content,
-                judgeVariable: q.judgeVariable,
-            })),
-        };
-
-        // Step 4: Submit answers to API
-        const submitRes = await fetch(
-            "https://api-soft-assist.nobisoft.com.vn/api/submit/submit", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(submitBody),
-            }
-        );
-
-        if (!submitRes.ok) {
-            throw new Error("Failed to submit answers");
+        if (!response.ok) {
+            throw new Error("Failed to ask question");
         }
+        
+        const data = await response.json();  // parse JSON from response
+		const answer = data.answer;           // adapt this key to your actual API response structure
+		player.SetVar("j10", answer);
 
-        const feedbacks = await submitRes.json();
+        console.log("AI response set to j10:", answer);
 
-        // Step 5: Update Storyline with feedback
-        feedbacks.forEach((fb) => {
-            player.SetVar(fb.judgeVariable, fb.feedback);
-        });
-
-        console.log("Feedback updated in Storyline:", feedbacks);
     } catch (err) {
-        console.error("Error during evaluation:", err);
+        console.error("Error during AI question:", err);
     }
+
     var overlay = document.getElementById("loadingOverlay");
     if (overlay) {
         overlay.remove();
     }
 })();
+
 }
 
 };
