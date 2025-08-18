@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="last22" />
+              <option name="title_text" value="Final Version" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1604,13 +1604,13 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Neurotransmitters_Effects.docx" image="story_content/5edMEy3VlGe.png" title="Neurotransmitters" />
-      <resource url="story_content/external_files/Primary Neurotransmitters.docx" image="story_content/5jsLAoK9kgq.png" title="Primary Neurotransmitters" />
-      <resource url="story_content/external_files/Limited Examples of External Neurotransmitters Sources.docx" image="story_content/6RFd8Ab5dbm.png" title="External Examples of Neurotransmitter Sources" />
-      <resource url="story_content/external_files/Coaching Clients with Emotions of Fear.docx" image="story_content/6oqSHTIIBAn.png" title="Coaching and Client Fear" />
-      <resource url="story_content/external_files/Brain Regions and the Impact of Fear, Resignation and Anger.docx" image="story_content/6UFcsKhm0v0.png" title="Brain Regions and the Impact of Fear, Resignation and Anger" />
-      <resource url="story_content/external_files/Analysis_ Leadership Under Organizational Change.docx" image="story_content/5gO5tipGvlp.png" title="Analysis_ Leadership Under Organizational Change" />
-      <resource url="story_content/external_files/Coaching Summary and Analysis_Ron.docx" image="story_content/5d9DPlFlf08.png" title="Coaching Summary and Analysis_Ron" />
+      <resource url="story_content/external_files/Neurotransmitters_Effects.docx" image="story_content/6pmprRgev31.png" title="Neurotransmitters" />
+      <resource url="story_content/external_files/Primary Neurotransmitters.docx" image="story_content/6LmyWkRemOV.png" title="Primary Neurotransmitters" />
+      <resource url="story_content/external_files/Limited Examples of External Neurotransmitters Sources.docx" image="story_content/6QUZT50oSbK.png" title="External Examples of Neurotransmitter Sources" />
+      <resource url="story_content/external_files/Coaching Clients with Emotions of Fear.docx" image="story_content/6GNfxFy4nqF.png" title="Coaching and Client Fear" />
+      <resource url="story_content/external_files/Brain Regions and the Impact of Fear, Resignation and Anger.docx" image="story_content/6Z0q8MecjTq.png" title="Brain Regions and the Impact of Fear, Resignation and Anger" />
+      <resource url="story_content/external_files/Analysis_ Leadership Under Organizational Change.docx" image="story_content/5sFm32sAs3l.png" title="Analysis_ Leadership Under Organizational Change" />
+      <resource url="story_content/external_files/Coaching Summary and Analysis_Ron.docx" image="story_content/64uIUOFEnKo.png" title="Coaching Summary and Analysis_Ron" />
     </resources>
   </resource_data>
   <transcript_data />

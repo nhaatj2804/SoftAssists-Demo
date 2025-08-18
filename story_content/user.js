@@ -100,7 +100,7 @@ window.Script2 = function()
 
         // Step 3: Prepare data to submit
         const submitBody = {
-            knowledgeBase,
+            lessonConfigId:token,
             questions: questions.map((q) => ({
                 groundTruthAnswer: q.answer,
                 studentAnswer: studentVariables[q.studentAnswerVariable],
@@ -229,7 +229,7 @@ window.Script4 = function()
 
         // Step 3: Prepare data to submit
         const submitBody = {
-            knowledgeBase,
+            lessonConfigId:token,
             questions: questions.map((q) => ({
                 groundTruthAnswer: q.answer,
                 studentAnswer: studentVariables[q.studentAnswerVariable],
@@ -358,7 +358,7 @@ window.Script6 = function()
 
         // Step 3: Prepare data to submit
         const submitBody = {
-            knowledgeBase,
+            lessonConfigId:token,
             questions: questions.map((q) => ({
                 groundTruthAnswer: q.answer,
                 studentAnswer: studentVariables[q.studentAnswerVariable],
